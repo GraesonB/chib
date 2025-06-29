@@ -2,5 +2,12 @@
 name = "chib"
 version = "0.1.0"
 edition = "2024"
+authors = ["Graeson Bergen <graesonbergen@gmail.com"]
 
 [dependencies]
+ratatui = "0.29"
+crossterm = "0.28"
+tachyonfx = "0.7"
+tui-shader = "0.0.9"
+anyhow = "1.0"
+tokio = { version = "1.0", features = ["full"] }
